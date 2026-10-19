@@ -1,0 +1,28 @@
+{
+  "name": "agent-intro-video",
+  "version": "0.1.0",
+  "private": true,
+  "description": "《AI Agent 巡礼》多品牌 AI Agent 科普片（180s · 1920x1080 · 60fps · Remotion）",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render Film out/Agent-Atlas-180s.mp4",
+    "still": "remotion still Film",
+    "upgrade": "remotion upgrade"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.535",
+    "@remotion/fonts": "4.0.535",
+    "@remotion/noise": "4.0.535",
+    "@remotion/paths": "4.0.535",
+    "@remotion/shapes": "4.0.535",
+    "@remotion/transitions": "4.0.535",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "4.0.535"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.6.0"
+  }
+}
